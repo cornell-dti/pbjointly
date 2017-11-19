@@ -1,0 +1,44 @@
+input[type=email] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color:white;
+    font-weight:normal;
+    float: inherit;
+    padding: 5px 3%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration:0.4s;
+    
+}
+/*on hover of email form, it becomes white*/
+input[type=email]:hover{
+    background-color: white;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid red;
+}
+
+input[type=email]:focus{
+    border: none;
+    background-color: white;
+    color: red;
+}
+
+/*Sign-up button*/
+#submitButton {
+    border: none;
+    color: white;
+    background: red;
+    font-size: 12px;
+    padding: 15px 15px;
+    float: inherit;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration:0.4s;
+}
+/*on hover, becomes white*/
+#submitButton:hover {
+    border: none;
+    background-color: white;
+    color: red;
+}
