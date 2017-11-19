@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>DTI Presents: Operation PBJOINTLY</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, init
+ial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href = "file:///C:/Users/matt4/Documents/DTI/MVP/stylesheet.css">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image:linear-gradient(to left, black 0%,white 150%), url('images/IMG_0714.jpg');
+    background-blend-mode: overlay;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <img  style = "height: 100px;" src='images/cornelldti.png' alt='Design and Tech Initiative'>
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top"><b>C</b>ommunity is <b>C</b>oming...</h1>
+    <hr class="w3-border-white" style="margin:auto;width:60%">
+    <p class="w3-large w3-center"><b>C</b>oming in 2018</p>
+    <form class ="w3-large w3-center" action="https://formspree.io/your@email.com"
+      method="POST">
+    Learn more about our exciting new project <br>
+    <input type="email" name="_replyto" placeholder="Your email address">
+    <button type="submit" id= "submitButton" value="Send">SIGN ME UP</button>
+    </form>
+    
+    <script type="text/javascript">
+    document.getElementById("submitButton").onclick = function () {
+        window.location("file:///C:/Users/matt4/Documents/DTI/MVP/thank-you.html");
+    };
+    </script>
+  </div>
+</div>
+
+</body>
+</html>
