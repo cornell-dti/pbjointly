@@ -1,1 +1,1 @@
-# A forthcoming DTI project
+# An upcoming DTI project
